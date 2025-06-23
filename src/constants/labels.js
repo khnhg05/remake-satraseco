@@ -40,6 +40,12 @@ export const NAV_LABELS = {
   },
 }
 
+//Banner 
+export const BannerHeader = "ĐỐI TÁC THƯƠNG MẠI";
+export const BannerDescription = "Doanh nghiệp có hơn 20 năm kinh nghiệm đầu tư & hợp tác kinh doanh-thương mại hiệu quả & ổn định.";
+export const BannerButton_Contact = "Liên hệ ngay";
+export const BannerButton_Hightlight = "Các công trình tiêu biểu";
+
 // Export danh sách chính cho navbar
 export const MAIN_NAV_ITEMS = [
   NAV_LABELS.ABOUT_COMPANY,
