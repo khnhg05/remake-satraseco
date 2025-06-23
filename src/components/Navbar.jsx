@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MAIN_NAV_ITEMS } from '../constants/labels';
 import Search from './SearchBar';
-import DropdownMenu from './DropdownMenu';
-import NavDropdown from './NavDropdown';
+import DropdownButton from './Nav-DropdownButton';
+import NavDropdownMenu from './Nav-DropdownMenu';
 import { NavbarProvider } from '../context/NavbarContext';
 
 export default function Navbar() {
@@ -46,10 +46,10 @@ export default function Navbar() {
 
           <div className="NavMenuBar flex items-center gap-7">
             {MAIN_NAV_ITEMS.map((item, index) => (
-              <NavDropdown key={index} item={item} />
+              <NavDropdownMenu key={index} item={item} />
             ))}
             <Search />
-            <DropdownMenu />
+            <DropdownButton />
           </div>
         </div>
       </NavbarProvider>
