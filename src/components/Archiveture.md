@@ -1,5 +1,5 @@
 Structure
-1. NavBar.jsx
+1. Navbar.jsx
 + Logo 
 + Navigation bar
 + Search bar --> show windows to search for projects (1), suggestion search (2)
