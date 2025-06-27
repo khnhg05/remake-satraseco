@@ -54,6 +54,9 @@ export const MAIN_NAV_ITEMS = [
   NAV_LABELS.NEWS
 ];
 
+//SLIDER YOUTUBE
+export const WATCH1="https://www.youtube.com/watch?v=I3f8LjZSy30"
+
 // Helper function để lấy options theo key
 export const getOptionsByKey = (key) => {
   return NAV_LABELS[key]?.options || [];

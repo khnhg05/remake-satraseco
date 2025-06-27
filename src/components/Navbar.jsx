@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { MAIN_NAV_ITEMS } from '../constants/labels';
-import Search from './SearchBar';
-import DropdownButton from './Nav-DropdownButton';
+import SearchButton from './SearchBar';
+import DropdownButton from './DropdownButton';
 import NavDropdownMenu from './Nav-DropdownMenu';
 import { NavbarProvider } from '../context/NavbarContext';
 
@@ -48,8 +48,8 @@ export default function Navbar() {
             {MAIN_NAV_ITEMS.map((item, index) => (
               <NavDropdownMenu key={index} item={item} />
             ))}
-            <Search />
-            <DropdownButton />
+            <SearchButton />
+            <DropdownButton/>
           </div>
         </div>
       </NavbarProvider>

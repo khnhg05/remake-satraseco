@@ -4,7 +4,7 @@ export default function SearchMenu({ hidden }) {
     if (hidden) return null;
     
     return (
-        <div className="SearchMenu fixed top-20 left-1/2 transform -translate-x-1/2 w-[50vw] text-black bg-white shadow-xl rounded-lg border border-gray-200 z-100">
+        <div className="SearchMenu fixed top-[15vh] left-1/2 transform -translate-x-1/2 w-[40vw] text-black bg-white shadow-xl rounded-lg border border-gray-200 z-100">
             <div className="p-4">
                 <div className="flex gap-2">
                     <input 
