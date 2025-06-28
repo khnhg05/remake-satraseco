@@ -43,6 +43,12 @@ export const NAV_LABELS = {
   },
 }
 
+//BUTTON LABEL: LessMoreButton
+export const MORE_LESS_BUTTON = {
+  More: "Xem thêm",
+  Less: "Ẩn bớt"
+}
+
 //Banner 
 export const BannerHeader = "ĐỐI TÁC THƯƠNG MẠI";
 export const BannerDescription = "Doanh nghiệp có hơn 20 năm kinh nghiệm đầu tư & hợp tác kinh doanh-thương mại hiệu quả & ổn định.";
@@ -133,41 +139,17 @@ export const HISTORY = {
   description : "Một hành trình hơn hai thập kỷ chuyển mình và bền bỉ kiến tạo giá trị thực."
 }
 
-export const HISTORY_LSIT = [
+export const HISTORY_LIST = [
   {
-    id : "1",
-    title : "Trước 2004",
-    description : ["Tiền thân là Công ty Vải Sợi May Gia Định",
-                  "Là doanh nghiệp nhà nước hoạt động trong lĩnh vực dệt may và thương mại nguyên phụ liệu may mặc.",
-                  "Nắm giữ các quỹ đất, mặt bằng và hệ thống kho bãi tại TP.HCM"]
-  },
-
-  {
-    id : "2", 
-    title : "2004",
+    id : "1", 
+    title : "2025",
     description : ["Chính thức cổ phần hóa – thành lập Công ty Cổ phần Thương mại và Dịch vụ SATRASECO",
                    "Bước ngoặt quan trọng, chuyển sang hoạt động theo mô hình doanh nghiệp cổ phần.",
                    "Mở rộng lĩnh vực hoạt động sang dịch vụ thương mại, cho thuê văn phòng và đầu tư bất động sản."]
   },
 
   {
-    id : "3",
-    title : "2005 - 2015",
-    description : ["Tiền thân là Công ty Vải Sợi May Gia Định",
-                  "Là doanh nghiệp nhà nước hoạt động trong lĩnh vực dệt may và thương mại nguyên phụ liệu may mặc.",
-                  "Nắm giữ các quỹ đất, mặt bằng và hệ thống kho bãi tại TP.HCM"]
-  },
-
-  {
-    id : "4", 
-    title : "2016 - 2023",
-    description : ["Chính thức cổ phần hóa – thành lập Công ty Cổ phần Thương mại và Dịch vụ SATRASECO",
-                   "Bước ngoặt quan trọng, chuyển sang hoạt động theo mô hình doanh nghiệp cổ phần.",
-                   "Mở rộng lĩnh vực hoạt động sang dịch vụ thương mại, cho thuê văn phòng và đầu tư bất động sản."]
-  },
-
-  {
-    id : "5",
+    id : "2",
     title : "2024 - 2025",
     description : ["Tiền thân là Công ty Vải Sợi May Gia Định",
                   "Là doanh nghiệp nhà nước hoạt động trong lĩnh vực dệt may và thương mại nguyên phụ liệu may mặc.",
@@ -175,12 +157,36 @@ export const HISTORY_LSIT = [
   },
 
   {
-    id : "6", 
-    title : "2025",
+    id : "3", 
+    title : "2016 - 2023",
     description : ["Chính thức cổ phần hóa – thành lập Công ty Cổ phần Thương mại và Dịch vụ SATRASECO",
                    "Bước ngoặt quan trọng, chuyển sang hoạt động theo mô hình doanh nghiệp cổ phần.",
                    "Mở rộng lĩnh vực hoạt động sang dịch vụ thương mại, cho thuê văn phòng và đầu tư bất động sản."]
-  }
+  },
+
+  {
+    id : "4",
+    title : "2005 - 2015",
+    description : ["Tiền thân là Công ty Vải Sợi May Gia Định",
+                  "Là doanh nghiệp nhà nước hoạt động trong lĩnh vực dệt may và thương mại nguyên phụ liệu may mặc.",
+                  "Nắm giữ các quỹ đất, mặt bằng và hệ thống kho bãi tại TP.HCM"]
+  },
+
+  {
+    id : "5", 
+    title : "2004",
+    description : ["Chính thức cổ phần hóa – thành lập Công ty Cổ phần Thương mại và Dịch vụ SATRASECO",
+                   "Bước ngoặt quan trọng, chuyển sang hoạt động theo mô hình doanh nghiệp cổ phần.",
+                   "Mở rộng lĩnh vực hoạt động sang dịch vụ thương mại, cho thuê văn phòng và đầu tư bất động sản."]
+  },
+
+  {
+    id : "6",
+    title : "Trước 2004",
+    description : ["Tiền thân là Công ty Vải Sợi May Gia Định",
+                  "Là doanh nghiệp nhà nước hoạt động trong lĩnh vực dệt may và thương mại nguyên phụ liệu may mặc.",
+                  "Nắm giữ các quỹ đất, mặt bằng và hệ thống kho bãi tại TP.HCM"]
+  },
 ]
 
 //HIGHLIGHT NUMERIC
