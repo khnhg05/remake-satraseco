@@ -7,7 +7,7 @@ export default function DropdownMenu({ hidden }) {
     let column_width = 100 / number_column;
 
     return (
-        <div className={`MenuBar fixed bg-white text-black text-lg font-medium opacity-90 z-100 top-[15vh] left-1/2 -translate-x-1/2 w-[100vw] pl-[10vw]`}>
+        <div className={`MenuBar fixed bg-gray-200 border-gray-300 text-black text-lg font-medium opacity-90 z-100 top-[15vh] left-1/2 -translate-x-1/2 w-[100vw] pl-[10vw]`}>
             <div className="MenuBarContainer flex flex-wrap justify-between">
                 {Object.keys(NAV_LABELS).map((key, index) => {
                     const { label, options } = NAV_LABELS[key];

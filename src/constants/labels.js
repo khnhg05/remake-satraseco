@@ -43,6 +43,10 @@ export const NAV_LABELS = {
   },
 }
 
+//COPY RIGHT
+export const COPYRIGHT = "©Copyright 2025 Công Ty Cổ Phần Thương Mại Dịch Vụ Sài Gòn"
+
+
 //BUTTON LABEL: LessMoreButton
 export const MORE_LESS_BUTTON = {
   More: "Xem thêm",
@@ -270,10 +274,14 @@ export const NEWS_LIST = [
 
 //FOOTER
 export const FOOTER_INFO = {
+  img : "/images/logo-big.png",
+  contact : "Liên hệ",
   address : "36 Lưu Văn Lang, Phường Bến Thành, Quận 1, Tp. HCM",
   phone : "(84-8)3829 4445",
   email : "info@satraseco.com.vn",
+  maps : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.631779846113!2d106.67990747513424!3d10.762835589385096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1c06f4e1dd%3A0x43900f1d4539a3d!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFThu7Egbmhpw6puIC0gxJDhuqFpIGjhu41jIFF14buRYyBnaWEgVFAuSENN!5e0!3m2!1svi!2s!4v1751094529067!5m2!1svi!2s",
 }
+
 
 // Helper function để lấy options theo key
 export const getOptionsByKey = (key) => {
