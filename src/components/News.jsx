@@ -20,10 +20,7 @@ export default function News() {
 
       <div className="NewsContent flex flex-row px-30 gap-5">
         {displayItems.map((item) => (
-          <div 
-            key={item.id}
-            className="NewsContentElement flex flex-col"
-          >
+          <div className="NewsContentElement flex flex-col">
             <img src={item.img} alt={item.title} className="NewsImg" />
             <p className="text-[#011E56] font-lg text-xl"> {item.title}</p>
             <p className="text-gray-600"> {item.description} </p>
