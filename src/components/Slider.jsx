@@ -5,37 +5,36 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const videoData = [
   {
     id: 1,
-    src: "https://www.youtube.com/embed/hIVJWkwLYgY?si=usRZprvmNZPNImEx",
+    src: "https://www.youtube.com/embed/OBYiDjV1Jx8?si=ouFEHa391y-JesnE",
     title: "Video 1",
   },
-
   {
     id: 2,
-    src: "https://www.youtube.com/embed/pvc9izATsDY?si=U0IpVOMi9qLYv14b",
+    src: "https://www.youtube.com/embed/k1ASRDr7Zkw?si=3si5GD8i6QyHwLMF",
     title: "Video 2",
   },
 
   {
     id: 3,
-    src: "https://www.youtube.com/embed/hIVJWkwLYgY?si=usRZprvmNZPNImEx",
+    src: "https://www.youtube.com/embed/OBYiDjV1Jx8?si=ouFEHa391y-JesnE",
     title: "Video 3",
   },
 
   {
     id: 4,
-    src: "https://www.youtube.com/embed/pvc9izATsDY?si=U0IpVOMi9qLYv14b",
+    src: "https://www.youtube.com/embed/k1ASRDr7Zkw?si=3si5GD8i6QyHwLMF",
     title: "Video 4",
   },
 
   {
     id: 5,
-    src: "https://www.youtube.com/embed/hIVJWkwLYgY?si=usRZprvmNZPNImEx",
+    src: "https://www.youtube.com/embed/OBYiDjV1Jx8?si=ouFEHa391y-JesnE",
     title: "Video 5",
   },
 
   {
     id: 6,
-    src: "https://www.youtube.com/embed/pvc9izATsDY?si=U0IpVOMi9qLYv14b",
+    src: "https://www.youtube.com/embed/k1ASRDr7Zkw?si=3si5GD8i6QyHwLMF",
     title: "Video 6",
   },
 ];
